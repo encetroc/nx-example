@@ -17,9 +17,7 @@
         "development": {
           "outputPath": "apps/next-app-1"
         },
-        "production": {
-          "outputPath": "apps/next-app-1"
-        }
+        "production": {}
       }
     },
     "serve": {
