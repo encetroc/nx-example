@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@nx-example/helpers": ["libs/helpers/src/index.ts"],
       "@nx-example/ui": ["libs/ui/src/index.ts"],
       "@nx-example/ui/server": ["libs/ui/src/server.ts"]
     }
