@@ -135,6 +135,30 @@ module.exports = {
         'surface-bright': 'var(--md-sys-color-surface-bright-dark)',
       },
     },
+    extend: {
+      opacity: {
+        84: '0.84',
+        88: '0.88',
+        92: '0.92',
+      },
+      boxShadow: {
+        hello: '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
+        light: {
+          1: 'var(--md-sys-box-shadow-1-light)',
+          2: 'var(--md-sys-box-shadow-2-light)',
+          3: 'var(--md-sys-box-shadow-3-light)',
+          4: 'var(--md-sys-box-shadow-4-light)',
+          5: 'var(--md-sys-box-shadow-5-light)',
+        },
+        dark: {
+          1: 'var(--md-sys-box-shadow-1-dark)',
+          2: 'var(--md-sys-box-shadow-2-dark)',
+          3: 'var(--md-sys-box-shadow-3-dark)',
+          4: 'var(--md-sys-box-shadow-4-dark)',
+          5: 'var(--md-sys-box-shadow-5-dark)',
+        },
+      },
+    },
   },
   plugins: [],
 }

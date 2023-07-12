@@ -222,6 +222,17 @@
   --md-sys-color-surface-container-lowest-light: #ffffff;
   --md-sys-color-surface-dim-light: #ddd8dd;
   --md-sys-color-surface-bright-light: #fdf8fd;
+  /* box shadow light */
+  --md-sys-box-shadow-1-light: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  --md-sys-box-shadow-2-light: 0px 1px 2px rgba(0, 0, 0, 0.3),
+    0px 2px 6px 2px rgba(0, 0, 0, 0.15);
+  --md-sys-box-shadow-3-light: 0px 4px 8px 3px rgba(0, 0, 0, 0.15),
+    0px 1px 3px rgba(0, 0, 0, 0.3);
+  --md-sys-box-shadow-4-light: 0px 6px 10px 4px rgba(0, 0, 0, 0.15),
+    0px 2px 3px rgba(0, 0, 0, 0.3);
+  --md-sys-box-shadow-5-light: 0px 8px 12px 6px rgba(0, 0, 0, 0.15),
+    0px 4px 4px rgba(0, 0, 0, 0.3);
   /* dark */
   --md-sys-color-primary-dark: #cfbcff;
   --md-sys-color-on-primary-dark: #381e72;
@@ -272,6 +283,17 @@
   --md-sys-color-surface-container-lowest-dark: #0f0e11;
   --md-sys-color-surface-dim-dark: #141316;
   --md-sys-color-surface-bright-dark: #3a383c;
+  /* box shadow dark */
+  --md-sys-box-shadow-1-dark: 0px 1px 3px 1px rgba(0, 0, 0, 0.15),
+    0px 1px 2px rgba(0, 0, 0, 0.3);
+  --md-sys-box-shadow-2-dark: 0px 2px 6px 2px rgba(0, 0, 0, 0.15),
+    0px 1px 2px rgba(0, 0, 0, 0.3);
+  --md-sys-box-shadow-3-dark: 0px 4px 8px 3px rgba(0, 0, 0, 0.15),
+    0px 1px 3px rgba(0, 0, 0, 0.3);
+  --md-sys-box-shadow-4-dark: 0px 6px 10px 4px rgba(0, 0, 0, 0.15),
+    0px 2px 3px rgba(0, 0, 0, 0.3);
+  --md-sys-box-shadow-5-dark: 0px 8px 12px 6px rgba(0, 0, 0, 0.15),
+    0px 4px 4px rgba(0, 0, 0, 0.3);
   /* Custom Colors */
   --md-custom-color-orange: #ce400d;
   /* display - large */

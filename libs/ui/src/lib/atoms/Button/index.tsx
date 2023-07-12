@@ -10,7 +10,7 @@ const buttonVariants = cva(
     variants: {
       variant: {
         filled:
-          'bg-light-primary text-light-on-primary dark:bg-dark-primary dark:text-dark-on-primary',
+          'bg-light-primary text-light-on-primary dark:bg-dark-primary dark:text-dark-on-primary hover:opacity-92 shadow-hello shadow-light-primary focus:opacity-88 active:opacity-88',
         outlined: 'bg-transparent text-primary border border-outline',
       },
     },
