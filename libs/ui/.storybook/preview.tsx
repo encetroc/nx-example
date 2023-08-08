@@ -4,9 +4,8 @@ import { Preview } from '@storybook/react'
 
 // add tailwind dark class when background is #333333
 const withDarkTheme = (Story, context) => {
-  console.log('context', context)
   document.documentElement.classList.add('dark')
-  switch (context.globals.backgrounds.value) {
+  switch (context.globals?.backgrounds?.value) {
     case '#F8F8F8':
       document.documentElement.classList.remove('dark')
       break
@@ -16,6 +15,7 @@ const withDarkTheme = (Story, context) => {
     default:
       document.documentElement.classList.remove('dark')
   }
+  console.log(context)
   return <Story />
 }
 

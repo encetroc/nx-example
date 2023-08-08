@@ -1,3 +1,9 @@
+import { Button } from '@nx-example/ui'
+
 export default async function Index() {
-  return <div>hello world</div>
+  return (
+    <div>
+      <Button>click me</Button>
+    </div>
+  )
 }
